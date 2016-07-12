@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
+    "prepublish": "npm run build",
     "start": "babel-node example/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
